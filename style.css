@@ -1,0 +1,73 @@
+.box{
+	font-family: tahoma;
+	font-size: 14px;
+	padding: 20px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+        display: inline-table;
+        vertical-align: top;
+        margin: 1%;
+}
+.box.form{
+	width: 30%;
+}
+.box.table{
+	width: 55%;
+}
+.box.form div{
+    margin-top: 5px;
+}
+.box.form button, .box.form a{
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #333;
+    background: #fff;
+    border: 1px solid #333;
+    text-decoration: none;
+}
+.box.form button:hover, .box.form a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background: #eee;
+}
+.box.form div label{
+	display: inline-block;
+	width: 25%;
+	color: #999;
+        padding-right: 10px;
+        text-align: right;
+}
+.box.form div select, .box.form div input{
+	display: inline-block;
+	width: 60%;
+        font-size: 15px;
+        height: 40px;
+        padding: 5px 8px;
+        color: #555;
+}
+.box.form div select:focus, .box.form div input:focus{
+    background: #888;
+    color: #fff;
+}
+.box.table table{
+	width: 100%;
+	border: 0.5px solid #ddd;
+        font-size: 14px;
+}
+.box.table table tr th{
+	background: #efefef;
+	padding: 5px;
+	border: 0.5px solid #ddd;
+        font-weight: normal;
+}
+.box.table table tr td{
+	padding: 3px;
+	border: 0.5px solid #ddd;
+}
+.box.table table tr td a{
+    color: #999;
+    text-decoration: none;
+}
+.box.table table tr td a:hover{
+    text-decoration: underline;
+}
