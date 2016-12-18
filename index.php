@@ -1,5 +1,5 @@
 <?php
-    include "db.php";
+    include_once "db.php";
 	
     if (isset($_GET['id'])){
 		$q = "SELECT * FROM tb_mahasiswa 
