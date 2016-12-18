@@ -35,7 +35,7 @@
                     <label>JENIS KELAMIN</label>
                     <select name="jk" id="jk">
                         <option value="L" <?php echo ((@$edit['jk']=="L") ? "selected" : "");?>>L</option>
-                        <option value="P" <?php echo ((@$edit['jk']=="P") ? "selected" : "");?>>L</option>
+                        <option value="P" <?php echo ((@$edit['jk']=="P") ? "selected" : "");?>>P</option>
                     </select>
                 </div>
 		<div>
@@ -50,8 +50,8 @@
                 </div>
                 <div>
                     <label>&nbsp;</label>
-                    <button type="submit">SIMPAN</button>
-                    <a href="index.php">BATAL</a>
+                    <button type="submit">SAVE</button>
+                    <a href="index.php">CANCEL</a>
                 </div>
             </form>
         </div>
