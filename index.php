@@ -24,12 +24,12 @@
 		<div>
                     <label>NPM</label>
                     <input type="text" name="npm" maxlength="10" value="<?php echo @$edit['npm']?>"
-                           placeholder="Masukkan NPM" required>
+                           placeholder="Masukkan NPM Anda..." required>
                 </div>
 		<div>
                     <label>NAMA</label>
                     <input type="text" name="nama" maxlength="35" value="<?php echo @$edit['nama']?>"
-                           placeholder="Masukkan Nama" required>
+                           placeholder="Masukkan Nama Anda..." required>
                 </div>
 		<div>
                     <label>JENIS KELAMIN</label>
@@ -41,12 +41,12 @@
 		<div>
                     <label>Alamat</label>
                     <input type="text" name="alamat" maxlength="15" value="<?php echo @$edit['alamat']?>"
-                           placeholder="Masukkan Alamat" required>
+                           placeholder="Masukkan Alamat Anda..." required>
                 </div>
 		<div>
                     <label>NO. HP</label>
                     <input type="text" name="no_hp" maxlength="14" value="<?php echo @$edit['no_hp']?>"
-                           placeholder="Masukkan No. Hp" required>
+                           placeholder="Masukkan No. Hp Anda..." required>
                 </div>
                 <div>
                     <label>&nbsp;</label>
