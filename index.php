@@ -21,6 +21,10 @@
         <div class="box form">
             <form action="update.php" method="post">
                 <input type="hidden" name="id" value="<?php echo @$edit['id']?>">
+                
+                <div>
+                	<h3>Isi Data Anda</h3>
+                </div>
 		<div>
                     <label>NPM</label>
                     <input type="text" name="npm" maxlength="10" value="<?php echo @$edit['npm']?>"
@@ -57,6 +61,7 @@
         </div>
         <div class="box table">
             <table cellpadding="0" cellspacing="0">
+                <th colspan="6"><h3>Data Mahasiswa</h3></th>
                 <tr>
                     <th width="15%">NPM</th>
                     <th width="25%">NAMA</th>
