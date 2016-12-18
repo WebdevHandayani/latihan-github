@@ -18,7 +18,7 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body style="text-align: center;">
-        <div class="box form">
+        <div class="box form c1">
             <form action="update.php" method="post">
                 <input type="hidden" name="id" value="<?php echo @$edit['id']?>">
 		<div>
@@ -55,7 +55,7 @@
                 </div>
             </form>
         </div>
-        <div class="box table">
+        <div class="box table c2">
             <table cellpadding="0" cellspacing="0">
                 <tr>
                     <th width="15%">NPM</th>
