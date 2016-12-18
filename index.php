@@ -50,8 +50,8 @@
                 </div>
                 <div>
                     <label>&nbsp;</label>
-                    <button type="submit">SIMPAN</button>
-                    <a href="index.php">BATAL</a>
+                    <button type="submit">SAVE</button>
+                    <a href="index.php">CANCEL</a>
                 </div>
             </form>
         </div>
