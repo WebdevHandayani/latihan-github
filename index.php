@@ -14,7 +14,7 @@
 ?>
 <html>
   <head>
-    <title>Akses Database</title>
+    <title>Akses Database Pakai MySqli</title>
     <link href="style.css" rel="stylesheet">
 </head>
 <body style="text-align: center;">
